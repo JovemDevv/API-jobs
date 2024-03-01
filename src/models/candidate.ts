@@ -34,3 +34,5 @@ export const Candidate = sequelize.define<CandidateInstance>("candidate", {
     unique: true,
   },
 });
+
+export { CandidateInstance };
